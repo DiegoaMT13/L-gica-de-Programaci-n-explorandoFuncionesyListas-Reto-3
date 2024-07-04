@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1></h1>
+                    <h2 class="texto__parrafo"><h2/>  
+                    <h4>1.Crea una función que calcule el índice de masa corporal (IMC)</h4> 
+                    <p>entre 18.5 y 24.9 es normal</p>
+                    <p class="texto__parrafo"></p>
+                </div>
+                <input type="number" id="numeroTalla" placeholder="Escribe altura 0.00"class="container__input">
+                <input type="number" id="numeroPeso" placeholder="Escribe peso en kilos"class="container__input">
+                <h3></h3>
+                <div class="chute container__botones">
+                 <button onclick="BotonMasacoporal();" class="container__boton">masa corporal (IMC)</button>
+                <p>2.Crea una función que calcule el valor del factorial de un número pasado como parámetro.</p>
+                <input type="number" id="miInput" placeholder="Escribe un numero entero "class="container__input">
+                <h5></h5>
+                <button onclick="calcularFactorial();" class="container__boton">Numero factorial</button>
+                <p>3.Crea una función que convierta un valor en dólares y devuelva el valor equivalente en reales moneda brasileña</p>
+                <input type="number" id="miInputmoneda" placeholder="Escribe un valor en dólares"class="container__input">
+                <h6></h6>
+                <button onclick="convertirDolaresAReales();" class="container__boton">Cabio moneda</button>
+                <p>4.Crea una función que muestre en pantalla el área y el perímetro de una sala rectangular,</p>
+                <input type="number" id="altura" placeholder="Escribe altura"class="container__input">
+                <input type="number" id="anchura" placeholder="Escribe anchura"class="container__input">
+                 <h7></h7>
+                <button onclick="calcuAreaYPerimetro();" class="container__boton">área y el perímetro</button>
+                <p>5.Crea una función que muestre en pantalla el área y el perímetro de una sala circular,</p>
+                <input type="number" id="radio"placeholder="Escribe en centímetros"class="container__input">
+                 <h8></h8>
+                <button onclick="calcularSalaAreayPerimetro();" class="container__boton">área y el perímetro circular</button>
+                <p>6.Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como parámetro.</p>
+                <input type="number" id="numero1"placeholder="Numero a multiplicar"class="container__input">
+                 <h9></h9>
+                <button onclick="mostrarTablaMultiplicar();" class="container__boton">Tabla de multiplicar</button>
+                <h10></h10>
+                <p>Gracias se termino</p>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
