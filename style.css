@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +17,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 10% 5% ;
 }
 
 
@@ -27,10 +34,9 @@ body::before {
 }
 
 .container {
-    width: 1200px;
-    height: 700px;
+    width: 1400px;
+    height: 1100px;
     display:
-    align-items: center;
     justify-content: space-between;
     border-radius: 24px;
     border: 1px solid #1875E8;
@@ -75,13 +81,13 @@ body::before {
 
 .container__input {
     width: 40%;
-    height: 20px;
+    height: 26px;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
     color: #060607;
     padding: 2rem;
-    font-weight:
+    font-size: 22px;
     
 }
 
@@ -93,7 +99,7 @@ body::before {
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 50px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 p,
@@ -102,6 +108,20 @@ button {
 }
 
 .texto__parrafo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 100;
+}
+.respuesta-1{
+    font-size: 26px;
+    
+}
+.preugunta-1{
+    font-size: 30px;
+
+}
+.container__imagen-persona{
+    display: flex;
+    align-items: center;
+    padding: 10% 15% 20%;
+    
 }
